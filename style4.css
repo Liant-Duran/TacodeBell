@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+ /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#dc2de2+0,c11fc6+10,b21db7+28,be26cc+61,a95dad+85,a93fbf+97 */
+background: linear-gradient(to bottom,  #dc2de2 0%,#c11fc6 10%,#b21db7 28%,#be26cc 61%,#a95dad 85%,#a93fbf 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+header {
+    background-color: #c55ddc;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #424c91;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+section {
+    
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        margin: 0 10px;
+    }
+}
